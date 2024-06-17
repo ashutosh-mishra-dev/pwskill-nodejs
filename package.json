@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "this is pw skill course for node js",
   "main": "index.js",
+  "module": "main.js",
   "scripts": {
     "test": "npm run test"
   },
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ashutosh-mishra-dev/pwskill-nodejs/issues"
   },
-  "homepage": "https://github.com/ashutosh-mishra-dev/pwskill-nodejs#readme"
+  "homepage": "https://github.com/ashutosh-mishra-dev/pwskill-nodejs#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
 }

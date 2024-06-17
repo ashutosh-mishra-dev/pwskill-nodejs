@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "this is try to learn how to manage package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "a",
+    "s",
+    "h",
+    "u",
+    "t",
+    "o",
+    "sh"
+  ],
+  "author": "ashutosh mishra",
+  "license": "ISC"
+}
