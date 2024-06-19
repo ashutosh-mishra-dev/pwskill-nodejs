@@ -16,5 +16,8 @@
     "sh"
   ],
   "author": "ashutosh mishra",
-  "license": "ISC"
+  "license": "ISC",
+  "workspaces": [
+    "packages/p1"
+  ]
 }

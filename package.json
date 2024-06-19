@@ -23,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/ashutosh-mishra-dev/pwskill-nodejs/issues"
   },
-  "homepage": "https://github.com/ashutosh-mishra-dev/pwskill-nodejs#readme",
-  "dependencies": {
-    "typescript": "^5.4.5"
-  }
+  "homepage": "https://github.com/ashutosh-mishra-dev/pwskill-nodejs#readme"
 }
