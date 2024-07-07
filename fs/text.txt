@@ -1,0 +1,4 @@
+you are write the code for 
+                        open file , 
+                        read file and 
+                        close the file
