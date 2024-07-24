@@ -86,14 +86,18 @@ const server = http.createServer((req,res)=>{
             method : 'GET'
         }
         
-        const apiRes = http.request(options,(apiReq)=>{
-
+        const apiReq = http.request(options,(apiRes)=>{
+            apiRes.on("data",(data)=>{
+                res.statusCode = 200;
+                res.setHeader('Content-Type','application/json');
+                res.end(data.toString());
+            })
         });
-        apiRes.on('error',(e)=>{
+        apiReq.on('the error is : ',(e)=>{
             res.write(e);
         });
 
-        apiRes.end();
+        apiReq.end();
     }
     else{
         res.statusCode = 404;
