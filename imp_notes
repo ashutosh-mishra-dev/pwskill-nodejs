@@ -1,0 +1,17 @@
+
+# ham jis tarike se kaam karte hai chijo ko divide kar lete hai.
+
+1. index.js/server.js :- (ye hamara basic starter file hota hai)hame pta hai ki index/server name se file hoti jise ham main    file se jante hai
+
+2. app.js :- hamare pass app.js file hota h jisme ham middleware ya route ko rakte hai
+
+3. create schema(models) :- hamne ek models name se folder banaya jisme database ke table ka schema banaya
+
+4. controller : - hamne ek controller banay jiska use logic likhane ke kam aata h kis tarike se data send karna h aur kaise recieve karna h ye controller me aata hai. controller basically functions hote hai () => {} . create users , get users, delete users, edit users esi prakar se functions hote h controller me.
+
+5. routes :- route ka use konse / (slash) pr konsa controller kaam karega ye route ke jariye hota h.
+
+**note :- controller se direct app.js pr ja sakte h but ye usually sahi nhi h. ham controller se jo bhi aana chahiye vo jana chahiye route file ke andar phir route se app.js file me.
+
+6. database se connection karne ke baad postman se check kar sakte hai
+ham yha database me json data send kar rhe hai post ke jariye aur postman me method post select karenge json data send karne ke liye body ke andar row ke andar {"name": "ashu","email": "ashu@gmail.com1"}

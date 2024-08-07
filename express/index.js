@@ -1,5 +1,34 @@
+// const http = require('http');
 
-const express = require("express");
+// const PORT = 3001;
+// const HOSTNAME = 'localhost';
+
+// const server = http.createServer((req,res) => {
+//     if(req.url == '/'){
+//         res.end('this is home page');
+//     }else if(req.url == '/contact'){
+//         res.statusCode == 200;
+//         res.setHeader('Content-Type','application/json');
+//         res.end(JSON.stringify({
+//             name:'Ashutosh',
+//             address:"surat",
+//             qualification:"bca"
+//         }));
+//     }else{
+//         res.statusCode = 404;
+//         res.setHeader('Content-Type','text/html');
+//         res.end('<h2>Page Not Found</h2>');
+//     }
+// });
+
+// server.listen(PORT,()=>{
+//     console.log(`The server running on ${HOSTNAME}:${PORT}`);
+// });
+
+//----------------------------------------------------------------------
+
+//const express = require('express'); // module ka use karne ke bad require nhi chalta h
+import express from "express"; // hya hamne es esliye use kiya h kyuki package.json me "type" : "module" liya h ! 
 const app = express();
 
 const port = 3000;
@@ -29,32 +58,6 @@ app.listen(port,()=>{
     console.log(`server running on ${hostname}:${port}`);
 });
 
-//----------------------------------------------------------------------
 
-// const http = require('http');
 
-// const PORT = 3001;
-// const HOSTNAME = 'localhost';
-
-// const server = http.createServer((req,res) => {
-//     if(req.url == '/'){
-//         res.end('this is home page');
-//     }else if(req.url == '/contact'){
-//         res.statusCode == 200;
-//         res.setHeader('Content-Type','application/json');
-//         res.end(JSON.stringify({
-//             name:'Ashutosh',
-//             address:"surat",
-//             qualification:"bca"
-//         }));
-//     }else{
-//         res.statusCode = 404;
-//         res.setHeader('Content-Type','text/html');
-//         res.end('<h2>Page Not Found</h2>');
-//     }
-// });
-
-// server.listen(PORT,()=>{
-//     console.log(`The server running on ${HOSTNAME}:${PORT}`);
-// });
 

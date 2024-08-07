@@ -1,7 +1,8 @@
 
 //---------------------------------------  created simple server  --------------------------------------
 
-const http = require('http');
+//const http = require('http');
+import http from "http";  // hya hamne es esliye use kiya h kyuki package.json me "type" : "module" liya h ! module ka use karne ke bad require nhi chalta h
 
 // const server = http.createServer((req,res)=>{
 //     if(req.url == '/'){
