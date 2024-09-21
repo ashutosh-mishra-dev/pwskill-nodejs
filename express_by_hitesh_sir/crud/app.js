@@ -15,7 +15,7 @@ const app = express();
 // express ke bane banaye middleware mil jate h app custom middleware bna sakte h.
 
 app.use(express.json()); // ham yha express ko bta rhe h ki json me data send kare to usko lelena (expresska build in middleware method h)
-app.use(express.urlencoded({extended: true})) // jab ham get request ke throw data send karte h to sabhi data jate h url throw. url apne aap me data ko encode karta hai ab data response me aaye to vo decode bhi to hona chahiye esi liye ye line likha gya h.
+app.use(express.urlencoded({extended: true})); // jab ham get request ke throw data send karte h to sabhi data jate h url throw. url apne aap me data ko encode karta hai ab data response me aaye to vo decode bhi to hona chahiye esi liye ye line likha gya h.
 app.use(cors()); // yha hamne btaya ki jo cors diya usko use kar lena means jo request h use aane do. cors() me ham jo bhi url h use allow kra sakte hai aur nhi bhi.
 
 //init connection to db (ham yha connection ke function ko call karte h aisa kah sakte h ki databse run ho jayega)
